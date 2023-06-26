@@ -1,0 +1,220 @@
+{
+  "success": true,
+  "build": {
+    "name": "Monk cha",
+    "class": "Monk",
+    "dualClass": null,
+    "level": 10,
+    "ancestry": "Human",
+    "heritage": "Skilled Heritage",
+    "background": "Barber",
+    "alignment": "N",
+    "gender": "Not set",
+    "age": "Not set",
+    "deity": "Not set",
+    "size": 2,
+    "sizeName": "Medium",
+    "keyability": "dex",
+    "languages": [],
+    "rituals": [],
+    "resistances": [],
+    "attributes": {
+      "ancestryhp": 8,
+      "classhp": 10,
+      "bonushp": 0,
+      "bonushpPerLevel": 1,
+      "speed": 25,
+      "speedBonus": 15
+    },
+    "abilities": {
+      "str": 16,
+      "dex": 20,
+      "con": 16,
+      "int": 10,
+      "wis": 12,
+      "cha": 18,
+      "breakdown": {
+        "ancestryFree": ["Cha", "Dex"],
+        "ancestryBoosts": [],
+        "ancestryFlaws": [],
+        "backgroundBoosts": ["Dex", "Cha"],
+        "classBoosts": ["Dex"],
+        "mapLevelledBoosts": {
+          "1": ["Str", "Con", "Dex", "Cha"],
+          "5": ["Str", "Con", "Dex", "Cha"],
+          "10": ["Str", "Con", "Dex", "Wis"]
+        }
+      }
+    },
+    "proficiencies": {
+      "classDC": 4,
+      "perception": 4,
+      "fortitude": 4,
+      "reflex": 4,
+      "will": 6,
+      "heavy": 0,
+      "medium": 0,
+      "light": 0,
+      "unarmored": 4,
+      "advanced": 0,
+      "martial": 0,
+      "simple": 4,
+      "unarmed": 4,
+      "castingArcane": 2,
+      "castingDivine": 0,
+      "castingOccult": 4,
+      "castingPrimal": 0,
+      "acrobatics": 2,
+      "arcana": 0,
+      "athletics": 2,
+      "crafting": 0,
+      "deception": 6,
+      "diplomacy": 0,
+      "intimidation": 0,
+      "medicine": 4,
+      "nature": 0,
+      "occultism": 0,
+      "performance": 0,
+      "religion": 0,
+      "society": 0,
+      "stealth": 2,
+      "survival": 0,
+      "thievery": 4
+    },
+    "mods": {
+      "Will": { "Item Bonus": 1 },
+      "Fortitude": { "Item Bonus": 1 },
+      "Reflex": { "Item Bonus": 1 }
+    },
+    "feats": [
+      ["Risky Surgery", null, "Awarded Feat", 1],
+      ["Skilled Heritage", null, "Heritage", 1],
+      ["Natural Ambition", null, "Ancestry Feat", 1],
+      ["Ki Strike", null, "Class Feat", 1],
+      ["Stumbling Stance", null, "Class Feat", 1],
+      ["Stunning Fist", null, "Class Feat", 2],
+      ["Ancestral Paragon", null, "General Feat", 3],
+      ["Arcane Tattoos", null, "Ancestry Feat", 3],
+      ["Wholeness of Body", null, "Class Feat", 4],
+      ["Ornate Tattoo", null, "Ancestry Feat", 5],
+      ["Stumbling Feint", null, "Class Feat", 6],
+      ["Toughness", null, "General Feat", 7],
+      ["Ki Blast", null, "Class Feat", 8],
+      ["Virtue-Forged Tattoos", null, "Ancestry Feat", 9],
+      ["Wind Jump", null, "Class Feat", 10]
+    ],
+    "specials": [
+      "Deception",
+      "Flurry of Blows",
+      "Powerful Fist",
+      "Occult",
+      "Mystic Strikes",
+      "Incredible Movement",
+      "Electric Arc",
+      "Alertness",
+      "Expert Strikes",
+      "Will",
+      "Weapon Specialization",
+      "Metal Strikes",
+      "Monk Expertise",
+      "Skilled Heritage"
+    ],
+    "lores": [["Surgery", 2]],
+    "equipmentContainers": {},
+    "equipment": [],
+    "specificProficiencies": {
+      "trained": [],
+      "expert": [],
+      "master": [],
+      "legendary": []
+    },
+    "weapons": [],
+    "money": { "cp": 0, "sp": 0, "gp": 15, "pp": 0 },
+    "armor": [
+      {
+        "name": "Sturdy Shield (Lesser)",
+        "qty": 1,
+        "prof": "shield",
+        "pot": 0,
+        "res": "",
+        "mat": null,
+        "display": "",
+        "worn": true,
+        "runes": []
+      }
+    ],
+    "spellCasters": [
+      {
+        "name": "Virtue-Forged Tattooed",
+        "magicTradition": "arcane",
+        "spellcastingType": "prepared",
+        "ability": "cha",
+        "proficiency": 2,
+        "focusPoints": 0,
+        "innate": true,
+        "perDay": [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0],
+        "spells": [
+          { "spellLevel": 0, "list": [] },
+          { "spellLevel": 1, "list": [] },
+          { "spellLevel": 2, "list": [] },
+          { "spellLevel": 3, "list": ["Lightning Bolt"] }
+        ],
+        "prepared": []
+      },
+      {
+        "name": "Caster Arcane Tattoos",
+        "magicTradition": "arcane",
+        "spellcastingType": "prepared",
+        "ability": "cha",
+        "proficiency": 2,
+        "focusPoints": 0,
+        "innate": true,
+        "perDay": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "spells": [{ "spellLevel": 0, "list": ["Electric Arc"] }],
+        "prepared": []
+      },
+      {
+        "name": "Ornate Tattoo",
+        "magicTradition": "arcane",
+        "spellcastingType": "prepared",
+        "ability": "cha",
+        "proficiency": 2,
+        "focusPoints": 0,
+        "innate": true,
+        "perDay": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        "spells": [
+          { "spellLevel": 0, "list": [] },
+          { "spellLevel": 1, "list": ["True Strike"] }
+        ],
+        "prepared": []
+      }
+    ],
+    "focusPoints": 3,
+    "focus": {
+      "occult": {
+        "wis": {
+          "abilityBonus": 1,
+          "proficiency": 4,
+          "itemBonus": 0,
+          "focusCantrips": [],
+          "focusSpells": [
+            "Ki Strike",
+            "Wholeness of Body",
+            "Ki Blast",
+            "Wind Jump"
+          ]
+        }
+      }
+    },
+    "formula": [],
+    "acTotal": {
+      "acProfBonus": 14,
+      "acAbilityBonus": 5,
+      "acItemBonus": 1,
+      "acTotal": 30,
+      "shieldBonus": "2"
+    },
+    "pets": [],
+    "familiars": []
+  }
+}
